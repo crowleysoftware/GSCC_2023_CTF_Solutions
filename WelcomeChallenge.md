@@ -10,9 +10,10 @@ The only challenge is to decode this value. Notice I said "decode", not "decrypt
 
 ```
 string plainText = Encoding.UTF8.GetString(Convert.FromBase64String("aXQncy1jYXB0dXJlLXRoZS1mbGFnLWdzY2MtMjAyMyE="));
+```
 
 ... and here is a javascript implementation:
 
-
 ```
 atob("aXQncy1jYXB0dXJlLXRoZS1mbGFnLWdzY2MtMjAyMyE=");
+```
