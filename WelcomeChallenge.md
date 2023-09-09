@@ -13,6 +13,6 @@ string plainText = Encoding.UTF8.GetString(Convert.FromBase64String("aXQncy1jYXB
 
 ... and here is a javascript implementation:
 
-```
 
-atob("aXQncy1jYXB0dXJlLXRoZS1mbGFnLWdzY2MtMjAyMyE=")
+```
+atob("aXQncy1jYXB0dXJlLXRoZS1mbGFnLWdzY2MtMjAyMyE=");
