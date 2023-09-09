@@ -21,3 +21,5 @@ A gcode visualizer should allow you to view the model layer-by-layer. When you d
 ![Flag](/images/TheDogAteIt.gif "The Dog Ate It")
 
 And there you have it. The flag is embedded in the middle of this hollowed out 3D model.
+
+Of course, you could also try printing this model and wait until you see the flag, but that could take a while.
