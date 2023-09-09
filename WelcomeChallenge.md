@@ -17,3 +17,9 @@ string plainText = Encoding.UTF8.GetString(Convert.FromBase64String("aXQncy1jYXB
 ```
 const plainText = atob("aXQncy1jYXB0dXJlLXRoZS1mbGFnLWdzY2MtMjAyMyE=");
 ```
+
+Incedentally, if you happen to click on Hint 2 it will ask: 
+
+> Are you sure you want to spend -400 points for this hint?
+
+That's not a typo, it is an Easter egg. If you "spend" -400 points on this clue it actually credits you +400! See... it always pays to at least look around.
