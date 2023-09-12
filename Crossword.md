@@ -1,7 +1,7 @@
 # Crossword
 
 ### Challenge
-You need to get these terms down to get your point across
+**You need to get these terms down to get your point across**
 
 This might be one of the more obvious clues. When you click on the link you are presented with a crossword puzzle:'
 

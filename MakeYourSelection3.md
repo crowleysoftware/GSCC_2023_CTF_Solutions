@@ -2,6 +2,8 @@
 
 ### Challenge
 
+***This flag is the SHA256 hash of all column values from all tables from Make Your Selection 1. Order the values alphabetically by table name, then column name then value. goto clue for more info.***
+
 Start with solution from Make Your Selection 1:
 
     xyz' UNION ALL SELECT name FROM sys.tables; --

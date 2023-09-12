@@ -7,7 +7,7 @@ When you "goto clue" you are presented with a screen where you can search for fr
 
 ![Fruit Finder](/images/MakeYourSelection1.png)
 
-Now you need to figure out how you are going to get the table names from the database when all you have a search screen.
+Now you need to figure out how you are going to get the table names from the database when all you have is a search screen.
 
 Any respectable hacker will check to see if this operation is vulnerable to SQL Injection. The easiest thing to try is to enter some search text that will cause the back end query to error out. For instance, ***berry' foo --***, will create an invalid sql statement if you assume the query is doing something like:
 
