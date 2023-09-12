@@ -4,7 +4,8 @@
 **The flag is what is different between the two images.**
 
 When you click on the link you are presented with two images:
-![Pixel Imperfect 1](/images/PixelImperfect1.png) ![Pixel Imperfect 2](/images/PixelImperfect2.png)
+
+![Pixel Imperfect 1](/images/PixelImperfect1.bmp) ![Pixel Imperfect 2](/images/PixelImperfect2.bmp)
 
 To the naked eye, there should be no obvious difference. However, if you download the images and inspect them pixel-by-pixel you will find that there are a few pixels that differ between them.
 
