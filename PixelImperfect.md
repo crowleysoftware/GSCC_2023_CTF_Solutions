@@ -54,5 +54,5 @@ Console.WriteLine(Encoding.UTF8.GetString(letters.ToArray())); //This is the fla
 
 I wrote a program to loop over the pixels in much the same way as the above script. Whenever I encountered a byte with value 0, I wrote the next letter of the flag to the pixel until I had written all the letters. I then saved the image as a bitmap.
 
-If you were to binary compare these images you would easily see the byte differences but they would not be in obvious order. That's why it is easies to loop over the pixes row-by-row and compare the bytes in order.
+If you were to binary compare these images you would easily see the byte differences but they would not be in obvious order. That's why it is easier to loop over the pixes row-by-row and compare the bytes in order.
 
