@@ -25,7 +25,7 @@ Each clue refers to some security-related term, many of which are HTTP headers. 
  14. CERTIFICATE-AUTHORITY
  15. CROSS-SITE-SCRIPTING
  16. REFERRER-POLICY
- 17. X-PERMITTED-CROSS-DOMAIN-POLICIES
+ 17. X-PERMITTED-CROSS-DOMAIN-POLICIES (apologies, I really didn't mean for this to trip anyone up!)
  18. DENIAL-OF-SERVICE
  19. OVER-POSTING
  20. PENETRATION-TEST
