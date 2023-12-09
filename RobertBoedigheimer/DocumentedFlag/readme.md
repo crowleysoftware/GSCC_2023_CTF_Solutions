@@ -3,7 +3,7 @@
 ### Challenge
 The image in the document displays the flag
 
-Opened the Miscroft Word document and looked for an image but not was present.  Microsoft .docx files are actually just zip files so renamed from rest.docx to rest.zip.  Sometimes they have a media folder with image files, but this had a document.xml file.  
+Opened the Miscroft Word document and looked for an image but none was present.  Microsoft .docx files are actually just zip files so renamed from rest.docx to rest.zip.  Sometimes they have a media folder with embedded image files, but this had a document.xml file.  
 
 ![](documentedFlag1.png)
 
