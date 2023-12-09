@@ -13,8 +13,8 @@ Opened that file and noticed some commented out hex values
 
 Used [CyberChef](https://gchq.github.io/CyberChef/) and pasted the hex content in the input, dragged over the "from Hex" into the recipe area, then in output area saw it was a PNG file so clicked on the save  
 
-![](hardyHarHar3.png)
+![](documentedFlag3.png)
 
 Opened the saved .png file and saw the flag
 
-![](hardyHarHar4.png)
+![](documentedFlag4.png)
