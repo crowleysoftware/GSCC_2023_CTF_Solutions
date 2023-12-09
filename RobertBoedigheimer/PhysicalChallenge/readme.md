@@ -11,4 +11,4 @@ find the clue.  I even looked into Task Rabbit services.  Ultimately the day of 
 ![](physicalChallenge.jpg)
 
 I actually do lockpicking as a hobby and would have been able to make quick work of getting into that box.  I finally enlisted some help from someone who was physically 
-present, luckily knew how to pick locks, and got me the flag!  What's Bob going to have to do next year??
+present and knew how to pick locks.  She got me the flag!  What's Bob going to have to do next year??
